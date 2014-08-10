@@ -76,7 +76,6 @@ void guessMomType(BloodType father, BloodType son, vector<BloodType>& res)
     for (int i = 0; i < 4; ++i)
     {
         mAbo = possibilities[i];
-        bool canProducePositives = fRh || mRh;
     
         bool a_possible = fAbo == AB || mAbo == AB ||
                           fAbo == A  || mAbo == A;
